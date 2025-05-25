@@ -23,19 +23,17 @@
   .social-button a {text-decoration: none; font-size: 1.3rem; background-color: #000; color: white; padding: 0.4rem 0.7rem; border-radius: 5px; transition: background-color 0.3s ease;}
   .social-button a:hover {background-color: #333;}
   .top-right-buttons {position: absolute; top: 1rem; right: 1rem; display: flex; gap: 0.4rem; font-size: 0.9rem;}
-  .top-right-buttons button, .top-right-buttons a {background-color: #ff4747; color: #fff; padding: 0.4rem 0.7rem; border: none; border-radius: 4px; text-decoration: none; cursor: pointer; font-size: 0.9rem;}
-  .top-right-buttons a {display: flex; align-items: center;}
-  .top-right-buttons button:hover, .top-right-buttons a:hover {background-color: #e63e3e;}
+  .top-right-buttons a {background-color: #ff4747; color: #fff; padding: 0.4rem 0.7rem; border: none; border-radius: 4px; text-decoration: none; cursor: pointer; font-size: 0.9rem; display: flex; align-items: center;}
+  .top-right-buttons a:hover {background-color: #e63e3e;}
 </style>
 </head>
 <body>
-  <img src="That's Enough Simple Logo NEW.png" alt="TE Logo" class="main-logo">
+  <img src="That's Enough Simple Logo.jpg" alt="TE Logo" class="main-logo">
   <div class="top-right-buttons">
-    <button onclick="toggleTheme()">Toggle Theme</button>
     <a href="about.html">About</a>
   </div>
   <div class="left">
-    <img src="That's Enough Logo NEW.png" alt="That's Enough Logo" class="logo">
+    <img src="That's Enough Logo 1.PNG" alt="That's Enough Logo" class="logo">
     <p>Weekly rants, hot takes, and the things that bothered us in sports.</p>
     <div class="reactions">
       <span class="reaction-button">😤</span>
@@ -44,7 +42,7 @@
     </div>
   </div>
   <div class="right">
-    <img src="Can't Get Enough Logo NEW.png" alt="Can't Get Enough Logo" class="logo">
+    <img src="Can't Get Enough Logo 1.PNG" alt="Can't Get Enough Logo" class="logo">
     <p>The plays, players and moments that kept us coming back for more.</p>
     <div class="reactions">
       <span class="reaction-button">👏</span>
@@ -59,11 +57,5 @@
   <div class="social-button">
     <a href="https://x.com/thats_enough12?s=11&t=0FFKtpcW_jx28fRXZ7ZiFA" target="_blank">X</a>
   </div>
-  <script>
-    function toggleTheme() {
-      document.body.classList.toggle('dark-theme');
-      document.body.classList.toggle('light-theme');
-    }
-  </script>
 </body>
 </html>
