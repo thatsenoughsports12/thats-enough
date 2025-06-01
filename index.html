@@ -24,9 +24,13 @@
   .social-button {position: absolute; bottom: 1rem; right: 1rem;}
   .social-button a {text-decoration: none; font-size: 1.3rem; background-color: #000; color: white; padding: 0.4rem 0.7rem; border-radius: 5px; transition: background-color 0.3s ease;}
   .social-button a:hover {background-color: #333;}
-  .top-right-buttons {position: absolute; top: 1rem; right: 1rem; display: flex; gap: 0.4rem; font-size: 0.9rem;}
-  .top-right-buttons a {background-color: #ff4747; color: #fff; padding: 0.4rem 0.7rem; border: none; border-radius: 4px; text-decoration: none; cursor: pointer; font-size: 0.9rem; display: flex; align-items: center;}
+  .top-right-buttons {position: absolute; top: 1rem; right: 1rem; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;}
+  .top-right-buttons a {background-color: #ff4747; color: #fff; padding: 0.4rem 0.7rem; border: none; border-radius: 4px; text-decoration: none; cursor: pointer; font-size: 0.9rem; display: flex; justify-content: center; align-items: center; text-align: center;}
   .top-right-buttons a:hover {background-color: #e63e3e;}
+  ul {list-style: none; padding: 0; margin-top: 1rem;}
+  ul li {margin-bottom: 0.5rem;}
+  ul li a {color: #ff4747; text-decoration: none;}
+  ul li a:hover {text-decoration: underline;}
 </style>
 </head>
 <body>
@@ -34,10 +38,14 @@
   <div class="top-right-buttons">
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
+    <a href="posts.html">Posts</a>
   </div>
   <div class="left">
     <img src="That's Enough Logo NEW.png" alt="That's Enough Logo" class="logo">
     <p>Weekly rants, hot takes, and the things that bothered us in sports.</p>
+    <ul>
+      <li><a href="posts/post1.html">That’s Enough: MLB Umpires Need Thicker Skin</a></li>
+    </ul>
     <div class="reactions">
       <span class="reaction-button">😤</span>
       <span class="reaction-button">👎</span>
